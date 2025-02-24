@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A436B66D2D6C33A5008971E3 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6692D6C33A5008971E3 /* OpenSans-Medium.ttf */; };
+		A436B66E2D6C33A5008971E3 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B66A2D6C33A5008971E3 /* OpenSans-Regular.ttf */; };
+		A436B66F2D6C33A5008971E3 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6662D6C33A5008971E3 /* OpenSans-Bold.ttf */; };
+		A436B6702D6C33A5008971E3 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */; };
+		A436B6712D6C33A5008971E3 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */; };
+		A436B6722D6C33A5008971E3 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B66B2D6C33A5008971E3 /* OpenSans-SemiBold.ttf */; };
+		A436B6732D6C33A5008971E3 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */; };
+		A4E5B49B2D6B72B000C9CE53 /* PinaMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4982D6B72B000C9CE53 /* PinaMagicApp.swift */; };
+		A4E5B49C2D6B72B000C9CE53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4942D6B72B000C9CE53 /* Preview Assets.xcassets */; };
+		A4E5B49D2D6B72B000C9CE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4962D6B72B000C9CE53 /* Assets.xcassets */; };
+		A4E5B4A22D6B730100C9CE53 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4A12D6B730100C9CE53 /* sample.json */; };
+		A4E5B4A82D6B731D00C9CE53 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4A42D6B731D00C9CE53 /* MainView.swift */; };
+		A4E5B4A92D6B731D00C9CE53 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4A62D6B731D00C9CE53 /* AppDIContainer.swift */; };
+		A4E5B4AA2D6B731D00C9CE53 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4A32D6B731D00C9CE53 /* AppFlowCoordinator.swift */; };
+		A4E5B4AB2D6B731D00C9CE53 /* IngredientListDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4A52D6B731D00C9CE53 /* IngredientListDIContainer.swift */; };
+		A4E5B4AE2D6B732E00C9CE53 /* Fonts+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4AC2D6B732E00C9CE53 /* Fonts+Ext.swift */; };
+		A4E5B4BB2D6B733A00C9CE53 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B22D6B733A00C9CE53 /* Ingredient.swift */; };
+		A4E5B4BC2D6B733A00C9CE53 /* IngredientRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4AF2D6B733A00C9CE53 /* IngredientRepository.swift */; };
+		A4E5B4BD2D6B733A00C9CE53 /* IngredientListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B52D6B733A00C9CE53 /* IngredientListVM.swift */; };
+		A4E5B4BE2D6B733A00C9CE53 /* IngredientListFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B02D6B733A00C9CE53 /* IngredientListFlowCoordinator.swift */; };
+		A4E5B4BF2D6B733A00C9CE53 /* IngredientDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B82D6B733A00C9CE53 /* IngredientDetailVM.swift */; };
+		A4E5B4C02D6B733A00C9CE53 /* IngredientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B72D6B733A00C9CE53 /* IngredientDetailView.swift */; };
+		A4E5B4C12D6B733A00C9CE53 /* IngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4B42D6B733A00C9CE53 /* IngredientListView.swift */; };
+		A4E5B4C62D6B734700C9CE53 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4C22D6B734700C9CE53 /* Configurations.swift */; };
+		A4E5B4C72D6B734700C9CE53 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4C32D6B734700C9CE53 /* EndPoints.swift */; };
+		A4E5B4C82D6B734700C9CE53 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4C42D6B734700C9CE53 /* NetworkManager.swift */; };
+		A4E5B4CB2D6B737600C9CE53 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A4E5B4CA2D6B737600C9CE53 /* Kingfisher */; };
+		A4E5B4CE2D6B73AC00C9CE53 /* PinaMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */; };
+		A4E5B4D22D6B73AE00C9CE53 /* PinaMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4CF2D6B73AE00C9CE53 /* PinaMagicUITests.swift */; };
+		A4E5B4D32D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E5B4782D6B72AC00C9CE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E5B45F2D6B72AB00C9CE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E5B4662D6B72AB00C9CE53;
+			remoteInfo = PinaMagic;
+		};
+		A4E5B4822D6B72AC00C9CE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E5B45F2D6B72AB00C9CE53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E5B4662D6B72AB00C9CE53;
+			remoteInfo = PinaMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
+		A436B6662D6C33A5008971E3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		A436B6692D6C33A5008971E3 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		A436B66A2D6C33A5008971E3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		A436B66B2D6C33A5008971E3 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A4E5B4672D6B72AB00C9CE53 /* PinaMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinaMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E5B4772D6B72AC00C9CE53 /* PinaMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinaMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E5B4812D6B72AC00C9CE53 /* PinaMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinaMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E5B4942D6B72B000C9CE53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4E5B4962D6B72B000C9CE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E5B4982D6B72B000C9CE53 /* PinaMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicApp.swift; sourceTree = "<group>"; };
+		A4E5B49F2D6B72DE00C9CE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E5B4A12D6B730100C9CE53 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		A4E5B4A32D6B731D00C9CE53 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		A4E5B4A42D6B731D00C9CE53 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A4E5B4A52D6B731D00C9CE53 /* IngredientListDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListDIContainer.swift; sourceTree = "<group>"; };
+		A4E5B4A62D6B731D00C9CE53 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		A4E5B4AC2D6B732E00C9CE53 /* Fonts+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+Ext.swift"; sourceTree = "<group>"; };
+		A4E5B4AF2D6B733A00C9CE53 /* IngredientRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRepository.swift; sourceTree = "<group>"; };
+		A4E5B4B02D6B733A00C9CE53 /* IngredientListFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListFlowCoordinator.swift; sourceTree = "<group>"; };
+		A4E5B4B22D6B733A00C9CE53 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		A4E5B4B42D6B733A00C9CE53 /* IngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListView.swift; sourceTree = "<group>"; };
+		A4E5B4B52D6B733A00C9CE53 /* IngredientListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListVM.swift; sourceTree = "<group>"; };
+		A4E5B4B72D6B733A00C9CE53 /* IngredientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailView.swift; sourceTree = "<group>"; };
+		A4E5B4B82D6B733A00C9CE53 /* IngredientDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailVM.swift; sourceTree = "<group>"; };
+		A4E5B4C22D6B734700C9CE53 /* Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		A4E5B4C32D6B734700C9CE53 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		A4E5B4C42D6B734700C9CE53 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicTests.swift; sourceTree = "<group>"; };
+		A4E5B4CF2D6B73AE00C9CE53 /* PinaMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicUITests.swift; sourceTree = "<group>"; };
+		A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E5B4642D6B72AB00C9CE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5B4CB2D6B737600C9CE53 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B4742D6B72AC00C9CE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B47E2D6B72AC00C9CE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A436B66C2D6C33A5008971E3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */,
+				A436B6662D6C33A5008971E3 /* OpenSans-Bold.ttf */,
+				A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */,
+				A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */,
+				A436B6692D6C33A5008971E3 /* OpenSans-Medium.ttf */,
+				A436B66A2D6C33A5008971E3 /* OpenSans-Regular.ttf */,
+				A436B66B2D6C33A5008971E3 /* OpenSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A4E5B45E2D6B72AB00C9CE53 = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4992D6B72B000C9CE53 /* PinaMagic */,
+				A4E5B4CD2D6B73AC00C9CE53 /* PinaMagicTests */,
+				A4E5B4D12D6B73AE00C9CE53 /* PinaMagicUITests */,
+				A4E5B4682D6B72AB00C9CE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E5B4682D6B72AB00C9CE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4672D6B72AB00C9CE53 /* PinaMagic.app */,
+				A4E5B4772D6B72AC00C9CE53 /* PinaMagicTests.xctest */,
+				A4E5B4812D6B72AC00C9CE53 /* PinaMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E5B4952D6B72B000C9CE53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4942D6B72B000C9CE53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4E5B4992D6B72B000C9CE53 /* PinaMagic */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B49E2D6B72CA00C9CE53 /* Application */,
+				A4E5B4AD2D6B732E00C9CE53 /* Extensions */,
+				A4E5B4BA2D6B733A00C9CE53 /* View Controllers */,
+				A4E5B4C52D6B734700C9CE53 /* Network Manager */,
+				A4E5B4A02D6B72F000C9CE53 /* Resources */,
+			);
+			path = PinaMagic;
+			sourceTree = "<group>";
+		};
+		A4E5B49E2D6B72CA00C9CE53 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4982D6B72B000C9CE53 /* PinaMagicApp.swift */,
+				A4E5B4A32D6B731D00C9CE53 /* AppFlowCoordinator.swift */,
+				A4E5B4A42D6B731D00C9CE53 /* MainView.swift */,
+				A4E5B4A72D6B731D00C9CE53 /* DIContainer */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A4E5B4A02D6B72F000C9CE53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A436B66C2D6C33A5008971E3 /* Fonts */,
+				A4E5B4A12D6B730100C9CE53 /* sample.json */,
+				A4E5B49F2D6B72DE00C9CE53 /* Info.plist */,
+				A4E5B4952D6B72B000C9CE53 /* Preview Content */,
+				A4E5B4962D6B72B000C9CE53 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4E5B4A72D6B731D00C9CE53 /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4A52D6B731D00C9CE53 /* IngredientListDIContainer.swift */,
+				A4E5B4A62D6B731D00C9CE53 /* AppDIContainer.swift */,
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		A4E5B4AD2D6B732E00C9CE53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4AC2D6B732E00C9CE53 /* Fonts+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4E5B4B12D6B733A00C9CE53 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4AF2D6B733A00C9CE53 /* IngredientRepository.swift */,
+				A4E5B4B02D6B733A00C9CE53 /* IngredientListFlowCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		A4E5B4B32D6B733A00C9CE53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4B22D6B733A00C9CE53 /* Ingredient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E5B4B62D6B733A00C9CE53 /* CocktailListView */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4B32D6B733A00C9CE53 /* Model */,
+				A4E5B4B42D6B733A00C9CE53 /* IngredientListView.swift */,
+				A4E5B4B52D6B733A00C9CE53 /* IngredientListVM.swift */,
+			);
+			path = CocktailListView;
+			sourceTree = "<group>";
+		};
+		A4E5B4B92D6B733A00C9CE53 /* CocktailDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4B72D6B733A00C9CE53 /* IngredientDetailView.swift */,
+				A4E5B4B82D6B733A00C9CE53 /* IngredientDetailVM.swift */,
+			);
+			path = CocktailDetailView;
+			sourceTree = "<group>";
+		};
+		A4E5B4BA2D6B733A00C9CE53 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4B12D6B733A00C9CE53 /* Flows */,
+				A4E5B4B62D6B733A00C9CE53 /* CocktailListView */,
+				A4E5B4B92D6B733A00C9CE53 /* CocktailDetailView */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A4E5B4C52D6B734700C9CE53 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4C22D6B734700C9CE53 /* Configurations.swift */,
+				A4E5B4C32D6B734700C9CE53 /* EndPoints.swift */,
+				A4E5B4C42D6B734700C9CE53 /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		A4E5B4CD2D6B73AC00C9CE53 /* PinaMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */,
+			);
+			path = PinaMagicTests;
+			sourceTree = "<group>";
+		};
+		A4E5B4D12D6B73AE00C9CE53 /* PinaMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E5B4CF2D6B73AE00C9CE53 /* PinaMagicUITests.swift */,
+				A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */,
+			);
+			path = PinaMagicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E5B4662D6B72AB00C9CE53 /* PinaMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E5B48B2D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagic" */;
+			buildPhases = (
+				A4E5B4632D6B72AB00C9CE53 /* Sources */,
+				A4E5B4642D6B72AB00C9CE53 /* Frameworks */,
+				A4E5B4652D6B72AB00C9CE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinaMagic;
+			packageProductDependencies = (
+				A4E5B4CA2D6B737600C9CE53 /* Kingfisher */,
+			);
+			productName = PinaMagic;
+			productReference = A4E5B4672D6B72AB00C9CE53 /* PinaMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E5B4762D6B72AC00C9CE53 /* PinaMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E5B48E2D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagicTests" */;
+			buildPhases = (
+				A4E5B4732D6B72AC00C9CE53 /* Sources */,
+				A4E5B4742D6B72AC00C9CE53 /* Frameworks */,
+				A4E5B4752D6B72AC00C9CE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E5B4792D6B72AC00C9CE53 /* PBXTargetDependency */,
+			);
+			name = PinaMagicTests;
+			packageProductDependencies = (
+			);
+			productName = PinaMagicTests;
+			productReference = A4E5B4772D6B72AC00C9CE53 /* PinaMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E5B4802D6B72AC00C9CE53 /* PinaMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E5B4912D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagicUITests" */;
+			buildPhases = (
+				A4E5B47D2D6B72AC00C9CE53 /* Sources */,
+				A4E5B47E2D6B72AC00C9CE53 /* Frameworks */,
+				A4E5B47F2D6B72AC00C9CE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E5B4832D6B72AC00C9CE53 /* PBXTargetDependency */,
+			);
+			name = PinaMagicUITests;
+			packageProductDependencies = (
+			);
+			productName = PinaMagicUITests;
+			productReference = A4E5B4812D6B72AC00C9CE53 /* PinaMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E5B45F2D6B72AB00C9CE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A4E5B4662D6B72AB00C9CE53 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A4E5B4762D6B72AC00C9CE53 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4E5B4662D6B72AB00C9CE53;
+					};
+					A4E5B4802D6B72AC00C9CE53 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A4E5B4662D6B72AB00C9CE53;
+					};
+				};
+			};
+			buildConfigurationList = A4E5B4622D6B72AB00C9CE53 /* Build configuration list for PBXProject "PinaMagic" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E5B45E2D6B72AB00C9CE53;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A4E5B4C92D6B737600C9CE53 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A4E5B4682D6B72AB00C9CE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E5B4662D6B72AB00C9CE53 /* PinaMagic */,
+				A4E5B4762D6B72AC00C9CE53 /* PinaMagicTests */,
+				A4E5B4802D6B72AC00C9CE53 /* PinaMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E5B4652D6B72AB00C9CE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436B66D2D6C33A5008971E3 /* OpenSans-Medium.ttf in Resources */,
+				A436B66E2D6C33A5008971E3 /* OpenSans-Regular.ttf in Resources */,
+				A436B66F2D6C33A5008971E3 /* OpenSans-Bold.ttf in Resources */,
+				A436B6702D6C33A5008971E3 /* OpenSans-ExtraBold.ttf in Resources */,
+				A436B6712D6C33A5008971E3 /* OpenSans-Light.ttf in Resources */,
+				A436B6722D6C33A5008971E3 /* OpenSans-SemiBold.ttf in Resources */,
+				A436B6732D6C33A5008971E3 /* Aileron-Regular.otf in Resources */,
+				A4E5B49C2D6B72B000C9CE53 /* Preview Assets.xcassets in Resources */,
+				A4E5B49D2D6B72B000C9CE53 /* Assets.xcassets in Resources */,
+				A4E5B4A22D6B730100C9CE53 /* sample.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B4752D6B72AC00C9CE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B47F2D6B72AC00C9CE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E5B4632D6B72AB00C9CE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5B4A82D6B731D00C9CE53 /* MainView.swift in Sources */,
+				A4E5B4A92D6B731D00C9CE53 /* AppDIContainer.swift in Sources */,
+				A4E5B4AE2D6B732E00C9CE53 /* Fonts+Ext.swift in Sources */,
+				A4E5B4BB2D6B733A00C9CE53 /* Ingredient.swift in Sources */,
+				A4E5B4BC2D6B733A00C9CE53 /* IngredientRepository.swift in Sources */,
+				A4E5B4BD2D6B733A00C9CE53 /* IngredientListVM.swift in Sources */,
+				A4E5B4C62D6B734700C9CE53 /* Configurations.swift in Sources */,
+				A4E5B4C72D6B734700C9CE53 /* EndPoints.swift in Sources */,
+				A4E5B4C82D6B734700C9CE53 /* NetworkManager.swift in Sources */,
+				A4E5B4BE2D6B733A00C9CE53 /* IngredientListFlowCoordinator.swift in Sources */,
+				A4E5B4BF2D6B733A00C9CE53 /* IngredientDetailVM.swift in Sources */,
+				A4E5B4C02D6B733A00C9CE53 /* IngredientDetailView.swift in Sources */,
+				A4E5B4C12D6B733A00C9CE53 /* IngredientListView.swift in Sources */,
+				A4E5B4AA2D6B731D00C9CE53 /* AppFlowCoordinator.swift in Sources */,
+				A4E5B4AB2D6B731D00C9CE53 /* IngredientListDIContainer.swift in Sources */,
+				A4E5B49B2D6B72B000C9CE53 /* PinaMagicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B4732D6B72AC00C9CE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5B4CE2D6B73AC00C9CE53 /* PinaMagicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E5B47D2D6B72AC00C9CE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5B4D22D6B73AE00C9CE53 /* PinaMagicUITests.swift in Sources */,
+				A4E5B4D32D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E5B4792D6B72AC00C9CE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E5B4662D6B72AB00C9CE53 /* PinaMagic */;
+			targetProxy = A4E5B4782D6B72AC00C9CE53 /* PBXContainerItemProxy */;
+		};
+		A4E5B4832D6B72AC00C9CE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E5B4662D6B72AB00C9CE53 /* PinaMagic */;
+			targetProxy = A4E5B4822D6B72AC00C9CE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4E5B4892D6B72AC00C9CE53 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Production";
+		};
+		A4E5B48A2D6B72AC00C9CE53 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Production";
+		};
+		A4E5B48C2D6B72AC00C9CE53 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Production";
+		};
+		A4E5B48D2D6B72AC00C9CE53 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Production";
+		};
+		A4E5B48F2D6B72AC00C9CE53 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinaMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinaMagic";
+			};
+			name = "Debug Production";
+		};
+		A4E5B4902D6B72AC00C9CE53 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinaMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinaMagic";
+			};
+			name = "Release Production";
+		};
+		A4E5B4922D6B72AC00C9CE53 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinaMagic;
+			};
+			name = "Debug Production";
+		};
+		A4E5B4932D6B72AC00C9CE53 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinaMagic;
+			};
+			name = "Release Production";
+		};
+		A4E5B4D42D6B749100C9CE53 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Development";
+		};
+		A4E5B4D52D6B749100C9CE53 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug Development";
+		};
+		A4E5B4D62D6B749100C9CE53 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinaMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinaMagic";
+			};
+			name = "Debug Development";
+		};
+		A4E5B4D72D6B749100C9CE53 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinaMagic;
+			};
+			name = "Debug Development";
+		};
+		A4E5B4D82D6B749500C9CE53 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release Development";
+		};
+		A4E5B4D92D6B749500C9CE53 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release Development";
+		};
+		A4E5B4DA2D6B749500C9CE53 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinaMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PinaMagic";
+			};
+			name = "Release Development";
+		};
+		A4E5B4DB2D6B749500C9CE53 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PinaMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinaMagic;
+			};
+			name = "Release Development";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E5B4622D6B72AB00C9CE53 /* Build configuration list for PBXProject "PinaMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E5B4892D6B72AC00C9CE53 /* Debug Production */,
+				A4E5B4D42D6B749100C9CE53 /* Debug Development */,
+				A4E5B48A2D6B72AC00C9CE53 /* Release Production */,
+				A4E5B4D82D6B749500C9CE53 /* Release Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		A4E5B48B2D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E5B48C2D6B72AC00C9CE53 /* Debug Production */,
+				A4E5B4D52D6B749100C9CE53 /* Debug Development */,
+				A4E5B48D2D6B72AC00C9CE53 /* Release Production */,
+				A4E5B4D92D6B749500C9CE53 /* Release Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		A4E5B48E2D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E5B48F2D6B72AC00C9CE53 /* Debug Production */,
+				A4E5B4D62D6B749100C9CE53 /* Debug Development */,
+				A4E5B4902D6B72AC00C9CE53 /* Release Production */,
+				A4E5B4DA2D6B749500C9CE53 /* Release Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+		A4E5B4912D6B72AC00C9CE53 /* Build configuration list for PBXNativeTarget "PinaMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E5B4922D6B72AC00C9CE53 /* Debug Production */,
+				A4E5B4D72D6B749100C9CE53 /* Debug Development */,
+				A4E5B4932D6B72AC00C9CE53 /* Release Production */,
+				A4E5B4DB2D6B749500C9CE53 /* Release Development */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Production";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4E5B4C92D6B737600C9CE53 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4E5B4CA2D6B737600C9CE53 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4E5B4C92D6B737600C9CE53 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4E5B45F2D6B72AB00C9CE53 /* Project object */;
+}
