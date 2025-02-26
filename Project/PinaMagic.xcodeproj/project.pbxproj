@@ -13,7 +13,6 @@
 		A436B6702D6C33A5008971E3 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */; };
 		A436B6712D6C33A5008971E3 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */; };
 		A436B6722D6C33A5008971E3 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A436B66B2D6C33A5008971E3 /* OpenSans-SemiBold.ttf */; };
-		A436B6732D6C33A5008971E3 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */; };
 		A4E5B49B2D6B72B000C9CE53 /* PinaMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4982D6B72B000C9CE53 /* PinaMagicApp.swift */; };
 		A4E5B49C2D6B72B000C9CE53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4942D6B72B000C9CE53 /* Preview Assets.xcassets */; };
 		A4E5B49D2D6B72B000C9CE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4962D6B72B000C9CE53 /* Assets.xcassets */; };
@@ -34,9 +33,15 @@
 		A4E5B4C72D6B734700C9CE53 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4C32D6B734700C9CE53 /* EndPoints.swift */; };
 		A4E5B4C82D6B734700C9CE53 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4C42D6B734700C9CE53 /* NetworkManager.swift */; };
 		A4E5B4CB2D6B737600C9CE53 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A4E5B4CA2D6B737600C9CE53 /* Kingfisher */; };
-		A4E5B4CE2D6B73AC00C9CE53 /* PinaMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */; };
 		A4E5B4D22D6B73AE00C9CE53 /* PinaMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4CF2D6B73AE00C9CE53 /* PinaMagicUITests.swift */; };
 		A4E5B4D32D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */; };
+		A4EE80472D6F4AEB004FF641 /* MockIngredientRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE80462D6F4AE6004FF641 /* MockIngredientRepository.swift */; };
+		A4EE804B2D6F4B9D004FF641 /* IngredientListVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE804A2D6F4B98004FF641 /* IngredientListVMTests.swift */; };
+		A4EE804D2D6F4E64004FF641 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE804C2D6F4E5F004FF641 /* MockNetworkManager.swift */; };
+		A4EE804E2D6F4EAD004FF641 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E5B4A12D6B730100C9CE53 /* sample.json */; };
+		A4EE80502D6F590B004FF641 /* MockIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE804F2D6F5908004FF641 /* MockIngredient.swift */; };
+		A4EE80542D6F695B004FF641 /* IngredientDetailVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE80532D6F6956004FF641 /* IngredientDetailVMTests.swift */; };
+		A4EE80592D6F6E05004FF641 /* MockIngredientListFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE80582D6F6E02004FF641 /* MockIngredientListFlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aileron-Regular.otf"; sourceTree = "<group>"; };
 		A436B6662D6C33A5008971E3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
@@ -87,9 +91,14 @@
 		A4E5B4C22D6B734700C9CE53 /* Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
 		A4E5B4C32D6B734700C9CE53 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		A4E5B4C42D6B734700C9CE53 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicTests.swift; sourceTree = "<group>"; };
 		A4E5B4CF2D6B73AE00C9CE53 /* PinaMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicUITests.swift; sourceTree = "<group>"; };
 		A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinaMagicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4EE80462D6F4AE6004FF641 /* MockIngredientRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockIngredientRepository.swift; sourceTree = "<group>"; };
+		A4EE804A2D6F4B98004FF641 /* IngredientListVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListVMTests.swift; sourceTree = "<group>"; };
+		A4EE804C2D6F4E5F004FF641 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		A4EE804F2D6F5908004FF641 /* MockIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockIngredient.swift; sourceTree = "<group>"; };
+		A4EE80532D6F6956004FF641 /* IngredientDetailVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetailVMTests.swift; sourceTree = "<group>"; };
+		A4EE80582D6F6E02004FF641 /* MockIngredientListFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockIngredientListFlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +130,6 @@
 		A436B66C2D6C33A5008971E3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				A436B6652D6C33A5008971E3 /* Aileron-Regular.otf */,
 				A436B6662D6C33A5008971E3 /* OpenSans-Bold.ttf */,
 				A436B6672D6C33A5008971E3 /* OpenSans-ExtraBold.ttf */,
 				A436B6682D6C33A5008971E3 /* OpenSans-Light.ttf */,
@@ -229,31 +237,31 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A4E5B4B62D6B733A00C9CE53 /* CocktailListView */ = {
+		A4E5B4B62D6B733A00C9CE53 /* IngredientListView */ = {
 			isa = PBXGroup;
 			children = (
 				A4E5B4B32D6B733A00C9CE53 /* Model */,
 				A4E5B4B42D6B733A00C9CE53 /* IngredientListView.swift */,
 				A4E5B4B52D6B733A00C9CE53 /* IngredientListVM.swift */,
 			);
-			path = CocktailListView;
+			path = IngredientListView;
 			sourceTree = "<group>";
 		};
-		A4E5B4B92D6B733A00C9CE53 /* CocktailDetailView */ = {
+		A4E5B4B92D6B733A00C9CE53 /* IngredientDetailView */ = {
 			isa = PBXGroup;
 			children = (
 				A4E5B4B72D6B733A00C9CE53 /* IngredientDetailView.swift */,
 				A4E5B4B82D6B733A00C9CE53 /* IngredientDetailVM.swift */,
 			);
-			path = CocktailDetailView;
+			path = IngredientDetailView;
 			sourceTree = "<group>";
 		};
 		A4E5B4BA2D6B733A00C9CE53 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				A4E5B4B12D6B733A00C9CE53 /* Flows */,
-				A4E5B4B62D6B733A00C9CE53 /* CocktailListView */,
-				A4E5B4B92D6B733A00C9CE53 /* CocktailDetailView */,
+				A4E5B4B62D6B733A00C9CE53 /* IngredientListView */,
+				A4E5B4B92D6B733A00C9CE53 /* IngredientDetailView */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -271,7 +279,10 @@
 		A4E5B4CD2D6B73AC00C9CE53 /* PinaMagicTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4E5B4CC2D6B73AC00C9CE53 /* PinaMagicTests.swift */,
+				A4EE80572D6F6DF4004FF641 /* Flows */,
+				A4EE80562D6F6C08004FF641 /* Network Manager */,
+				A4EE80552D6F6BF3004FF641 /* Stub */,
+				A4EE80482D6F4B79004FF641 /* View Controllers */,
 			);
 			path = PinaMagicTests;
 			sourceTree = "<group>";
@@ -283,6 +294,56 @@
 				A4E5B4D02D6B73AE00C9CE53 /* PinaMagicUITestsLaunchTests.swift */,
 			);
 			path = PinaMagicUITests;
+			sourceTree = "<group>";
+		};
+		A4EE80482D6F4B79004FF641 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE80462D6F4AE6004FF641 /* MockIngredientRepository.swift */,
+				A4EE80522D6F694B004FF641 /* IngredientDetailView */,
+				A4EE80512D6F5996004FF641 /* IngredientListView */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A4EE80512D6F5996004FF641 /* IngredientListView */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE804A2D6F4B98004FF641 /* IngredientListVMTests.swift */,
+			);
+			path = IngredientListView;
+			sourceTree = "<group>";
+		};
+		A4EE80522D6F694B004FF641 /* IngredientDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE80532D6F6956004FF641 /* IngredientDetailVMTests.swift */,
+			);
+			path = IngredientDetailView;
+			sourceTree = "<group>";
+		};
+		A4EE80552D6F6BF3004FF641 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE804F2D6F5908004FF641 /* MockIngredient.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
+		A4EE80562D6F6C08004FF641 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE804C2D6F4E5F004FF641 /* MockNetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		A4EE80572D6F6DF4004FF641 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE80582D6F6E02004FF641 /* MockIngredientListFlowCoordinator.swift */,
+			);
+			path = Flows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,7 +467,6 @@
 				A436B6702D6C33A5008971E3 /* OpenSans-ExtraBold.ttf in Resources */,
 				A436B6712D6C33A5008971E3 /* OpenSans-Light.ttf in Resources */,
 				A436B6722D6C33A5008971E3 /* OpenSans-SemiBold.ttf in Resources */,
-				A436B6732D6C33A5008971E3 /* Aileron-Regular.otf in Resources */,
 				A4E5B49C2D6B72B000C9CE53 /* Preview Assets.xcassets in Resources */,
 				A4E5B49D2D6B72B000C9CE53 /* Assets.xcassets in Resources */,
 				A4E5B4A22D6B730100C9CE53 /* sample.json in Resources */,
@@ -417,6 +477,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EE804E2D6F4EAD004FF641 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +518,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E5B4CE2D6B73AC00C9CE53 /* PinaMagicTests.swift in Sources */,
+				A4EE804B2D6F4B9D004FF641 /* IngredientListVMTests.swift in Sources */,
+				A4EE80592D6F6E05004FF641 /* MockIngredientListFlowCoordinator.swift in Sources */,
+				A4EE80472D6F4AEB004FF641 /* MockIngredientRepository.swift in Sources */,
+				A4EE80502D6F590B004FF641 /* MockIngredient.swift in Sources */,
+				A4EE804D2D6F4E64004FF641 /* MockNetworkManager.swift in Sources */,
+				A4EE80542D6F695B004FF641 /* IngredientDetailVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +680,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -643,6 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -803,6 +871,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -922,6 +991,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PinaMagic/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PinaMagic/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

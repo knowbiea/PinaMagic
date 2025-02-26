@@ -20,14 +20,6 @@ enum OpenSans: String {
      }
 }
 
-enum Aileron: String {
-    case regular = "Regular"
-    
-    func of(size: CGFloat) -> Font {
-        return Font.custom("Aileron-\(self.rawValue)", size: size)
-     }
-}
-
 extension Font {
     static let bold10 = OpenSans.bold.of(size: 10)
     static let bold16 = OpenSans.bold.of(size: 16)

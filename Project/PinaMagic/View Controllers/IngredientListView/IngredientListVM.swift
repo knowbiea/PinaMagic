@@ -48,15 +48,17 @@ final class IngredientListViewModel: ObservableObject, IngredientListViewModelTy
                     print("Finished")
                 }
             } receiveValue: { [weak self] value in
-                guard let self = self else { return }
-                self.ingredients = value
-                self.filteredIngredients = ingredients
+                self?.ingredients = value.sorted { $0.name < $1.name }
+                self?.filteredIngredients = self?.ingredients ?? []
             }
             .store(in: &cancellable)
     }
     
     func filteredData(_ type: IngredientType) {
-        filteredIngredients = ingredients.filter { type == .all ? true : $0.type == type }
+        filteredIngredients = ingredients
+            .filter { type == .all ? true : $0.type == type }
+            .sorted { $0.name < $1.name }
+            .sorted { $0.isLiked && !$1.isLiked }
     }
     
     func goToUserDetailView(ingredient: Ingredient) {
@@ -68,6 +70,10 @@ final class IngredientListViewModel: ObservableObject, IngredientListViewModelTy
            let ingredientIndex = ingredients.firstIndex(where: { $0.id == ingredient.id }) {
             filteredIngredients[index].isLiked = ingredient.isLiked
             ingredients[ingredientIndex].isLiked = ingredient.isLiked
+            
+            filteredIngredients = filteredIngredients
+                .sorted { $0.name < $1.name }
+                .sorted { $0.isLiked && !$1.isLiked }
         }
     }
 }
