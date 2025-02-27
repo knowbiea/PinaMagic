@@ -16,6 +16,7 @@ protocol IngredientDetailViewModelType {
 class IngredientDetailViewModel: ObservableObject, IngredientDetailViewModelType {
     @Published var ingredient: Ingredient
     var listViewModel: any IngredientListViewModelType
+    @AppStorage("likes") var likes: String = ""
     
     init(ingredient: Ingredient, listViewModel: any IngredientListViewModelType) {
         self.ingredient = ingredient
@@ -23,6 +24,10 @@ class IngredientDetailViewModel: ObservableObject, IngredientDetailViewModelType
     }
     
     func updateLike() {
+        likes =  likes.contains(ingredient.id)
+        ? likes.replacingOccurrences(of: "\(ingredient.id),", with: "")
+        : likes + "\(ingredient.id),"
+        
         ingredient.isLiked.toggle()
         listViewModel.updateLike(ingredient: ingredient)
     }

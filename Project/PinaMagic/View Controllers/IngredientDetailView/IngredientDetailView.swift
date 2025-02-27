@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Kingfisher
 
 struct IngredientDetailView: View {
     
@@ -27,12 +26,8 @@ struct IngredientDetailView: View {
                 }
                 .padding()
                 
-                KFImage(URL(string: viewModel.ingredient.image))
+                Image(.sample)
                     .resizable()
-                    .placeholder {
-                        Image(.placeholder)
-                            .resizable()
-                    }
                     .scaledToFill()
                     .frame(maxHeight: 280)
                     .clipped()

@@ -31,6 +31,7 @@ struct IngredientListView: View {
                     }
             }
             .listStyle(.plain)
+            .accessibilityLabel("ingredients_Lists")
         }
         .navigationTitle("All Cocktails")
         .onChange(of: viewModel.selectionType) { type in
@@ -55,22 +56,25 @@ struct IngredientListView: View {
                             Text(ingredient.name)
                                 .font(.bold16)
                                 .foregroundStyle(ingredient.isLiked ? Color.purple : .black)
+                                .accessibilityLabel(ingredient.name)
                             if ingredient.isLiked {
                                 Spacer()
                                 Image(systemName:"heart.fill")
-                                .renderingMode(.template)
-                                .foregroundStyle(Color.purple)
+                                    .renderingMode(.template)
+                                    .foregroundStyle(Color.purple)
                             }
                         }
                         
                         Text(ingredient.shortDescription)
                             .font(.regular14)
+                            .accessibilityLabel(ingredient.shortDescription)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 Divider()
             }
             .listRowSeparator(.hidden)
+            .accessibilityElement(children: .contain)
         }
     }
 }

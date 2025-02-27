@@ -27,6 +27,7 @@ final class IngredientListViewModel: ObservableObject, IngredientListViewModelTy
     @Published var filteredIngredients: [Ingredient] = []
     @Published var selectionType: IngredientType = .all
     @Published var hasAppeared = false
+    @AppStorage("likes") var likes: String = ""
     private var actions: IngredientListViewActions?
     private var ingredients: [Ingredient] = []
     private var repository: IngredientRepositoryType
@@ -48,7 +49,20 @@ final class IngredientListViewModel: ObservableObject, IngredientListViewModelTy
                     print("Finished")
                 }
             } receiveValue: { [weak self] value in
-                self?.ingredients = value.sorted { $0.name < $1.name }
+                if (self?.likes.count ?? 0) > 0 {
+                    let values = value.map { ingredient in
+                        var updatedIngredient = ingredient
+                        updatedIngredient.isLiked = self?.likes.contains(ingredient.id) ?? false
+                        return updatedIngredient
+                    }
+                    
+                    self?.ingredients = values
+                        .sorted { $0.name < $1.name }
+                        .sorted { $0.isLiked && !$1.isLiked }
+                } else {
+                    self?.ingredients = value.sorted { $0.name < $1.name }
+                }
+                
                 self?.filteredIngredients = self?.ingredients ?? []
             }
             .store(in: &cancellable)
